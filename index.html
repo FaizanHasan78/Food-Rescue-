@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FoodRescue - Reduce Food Waste, Connect Communities</title>
+  <meta name="description" content="FoodRescue connects food donors with recipients to reduce food waste and help communities"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo"><i class="fas fa-leaf"></i> Food<span>Rescue</span></a>
+        <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="#" class="nav-link auth-only">Browse Food</a></li>
+          <li><a href="#" class="nav-link auth-only">My Listings</a></li>
+          <li><a href="#" class="nav-link auth-only">Messages</a></li>
+          <li><a href="#" class="nav-link">About Us</a></li>
+          <li><a href="#" class="nav-link non-auth-only">Login / Register</a></li>
+          <li class="auth-only"><a href="#" class="nav-link user-name"></a></li>
+          <li class="auth-only"><a href="#" id="logout-btn" class="nav-link">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-container">
+      <h1 class="hero-title">Reducing Food Waste, One <span>Connection</span> at a Time</h1>
+      <p class="hero-description">FoodRescue connects those with surplus food to those who need it.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary btn-lg non-auth-only">Get Started</a>
+        <a href="#" class="btn btn-primary btn-lg auth-only">Browse Food</a>
+        <a href="#how-it-works" class="btn btn-outline btn-lg">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo"><i class="fas fa-leaf"></i> Food<span>Rescue</span></div>
+          <p class="footer-description">Connecting food donors with recipients to reduce waste.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
